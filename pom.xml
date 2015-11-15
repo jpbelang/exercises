@@ -13,6 +13,7 @@
         <module>factorial</module>
         <module>reverse</module>
         <module>merge</module>
+        <module>cards</module>
     </modules>
 
     <dependencies>
