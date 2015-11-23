@@ -14,6 +14,7 @@
         <module>reverse</module>
         <module>merge</module>
         <module>cards</module>
+        <module>io</module>
     </modules>
 
     <dependencies>
