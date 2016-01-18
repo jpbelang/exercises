@@ -16,6 +16,7 @@
         <module>cards</module>
         <module>io</module>
         <module>collections</module>
+        <module>threads</module>
     </modules>
 
     <dependencies>
