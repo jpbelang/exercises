@@ -17,6 +17,8 @@
         <module>io</module>
         <module>collections</module>
         <module>threads</module>
+        <module>interlude</module>
+        <module>network</module>
     </modules>
 
     <dependencies>
