@@ -25,12 +25,14 @@ public class GetQuote implements Callable<Void> {
     public GetQuote(String tickerSymbol, Map<String, Integer> finished, CyclicBarrier barrierier) {
         this.tickerSymbol = tickerSymbol;
         this.finished = finished;
-        barrier = barrierier;
+        this.barrier = barrierier;
     }
 
     public Void call() throws Exception {
 
-        URL u = new URL("http://finance.yahoo.com/webservice/v1/symbols/"+ tickerSymbol + "/quote?format=json&view=detail");
+        URL u = new URL(
+                "http://finance.yahoo.com/webservice/v1/symbols/"
+                        + tickerSymbol + "/quote?format=json&view=detail");
         URLConnection urlConnection = u.openConnection();
         BufferedReader br = new BufferedReader(new InputStreamReader(urlConnection.getInputStream()));
 
