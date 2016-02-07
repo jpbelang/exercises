@@ -9,7 +9,7 @@ public class Reverse {
     public static String[] reverse(String[] array) {
 
         String[] output = new String[array.length];
-        for(int a = 0; a < output.length; a ++) {
+        for (int a = 0; a < output.length; a++) {
 
             output[output.length - 1 - a] = array[a];
         }

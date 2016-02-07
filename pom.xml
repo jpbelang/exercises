@@ -20,6 +20,7 @@
         <module>interlude</module>
         <module>network</module>
         <module>more-threads</module>
+        <module>jcat</module>
     </modules>
 
     <dependencies>
