@@ -21,6 +21,7 @@
         <module>network</module>
         <module>more-threads</module>
         <module>jcat</module>
+        <module>webapp-replication</module>
     </modules>
 
     <dependencies>
